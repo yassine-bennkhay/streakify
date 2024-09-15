@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
   int? _tappedIndex;
   @override
   Widget build(BuildContext context) {
-    const int numberOfDays = 800;
+    const int numberOfDays = 100;
 
     return Scaffold(
       appBar: AppBar(title: const Text('Custom Streak Calendar')),
@@ -38,14 +38,14 @@ class _HomePageState extends State<HomePage> {
               numberOfDays: numberOfDays,
               crossAxisCount: 4,
               margin: const EdgeInsets.all(40),
-              isDayTargetReachedMap: const {
-                0: true,
-                1: false,
-                2: true,
-                5: true,
-                10: true,
-                99: true,
-              },
+
+              /// The `isDayTargetReachedMap` is a map of day index to a boolean value.
+              isDayTargetReachedMap: Map.fromEntries(
+                List.generate(
+                  numberOfDays,
+                  (index) => MapEntry(index, index % 2 == 0 || index % 3 == 0 || index % 5 == 0),
+                ),
+              ),
               height: 100,
               width: 350,
               onTap: (index) {
