@@ -1,4 +1,4 @@
-**Streakify** is a Flutter widget for displaying a grid of days with target achievements. It allows you to visualize streaks or goals with customizable colors and tap handling.
+**Streakify** is a Flutter package for displaying a grid of days with target achievements. It allows you to visualize streaks or goals with customizable colors and tap handling.
 
 ## Features
 
