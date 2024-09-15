@@ -7,7 +7,7 @@
 - Flexible styling options for borders, colors, and layout.
 ## Preview
 
-<img src="https://raw.githubusercontent.com/yassine-bennkhay/streakify/main/assets/showcase.png" alt="preview" height="500">
+<img src="https://github.com/yassine-bennkhay/streakify/raw/main/assets/showcase.png" alt="preview" height="500">
 
 ## Usage
 
