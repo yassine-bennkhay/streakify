@@ -18,7 +18,6 @@ class StreakWidget extends StatelessWidget {
   final ScrollPhysics scrollPhysics;
   final double mainAxisSpacing;
   final double crossAxisSpacing;
-  final Widget Function(BuildContext, int, bool)? itemBuilder;
 
   const StreakWidget({
     super.key,
@@ -39,7 +38,6 @@ class StreakWidget extends StatelessWidget {
     this.scrollPhysics = const BouncingScrollPhysics(),
     this.mainAxisSpacing = 2,
     this.crossAxisSpacing = 2,
-    this.itemBuilder,
   });
   @override
   Widget build(BuildContext context) {

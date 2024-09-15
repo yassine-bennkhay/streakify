@@ -43,7 +43,10 @@ class _HomePageState extends State<HomePage> {
               isDayTargetReachedMap: Map.fromEntries(
                 List.generate(
                   numberOfDays,
-                  (index) => MapEntry(index, index % 2 == 0 || index % 3 == 0 || index % 5 == 0),
+                  (index) => MapEntry(
+                    index,
+                    index % 2 == 0 || index % 3 == 0 || index % 5 == 0,
+                  ),
                 ),
               ),
               height: 100,
