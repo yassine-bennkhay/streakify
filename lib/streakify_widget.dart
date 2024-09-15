@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class StreakWidget extends StatelessWidget {
+class StreakifyWidget extends StatelessWidget {
   final int numberOfDays;
   final Map<int, bool> isDayTargetReachedMap;
   final Color emptyColor;
@@ -19,7 +19,7 @@ class StreakWidget extends StatelessWidget {
   final double mainAxisSpacing;
   final double crossAxisSpacing;
 
-  const StreakWidget({
+  const StreakifyWidget({
     super.key,
     required this.numberOfDays,
     required this.isDayTargetReachedMap,

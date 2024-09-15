@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:streak_calendar/streak_calendar.dart';
+import 'package:streakify/streakify_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
       body: Center(
         child: Column(
           children: [
-            StreakWidget(
+            StreakifyWidget(
               numberOfDays: numberOfDays,
               crossAxisCount: 4,
               margin: const EdgeInsets.all(40),

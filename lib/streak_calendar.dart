@@ -1,3 +1,3 @@
-library streak_calendar;
+library streakify;
 
-export '/streak_widget.dart';
+export 'streakify_widget.dart';
