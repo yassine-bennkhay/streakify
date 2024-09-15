@@ -8,7 +8,7 @@
 
 ## Preview
 
-<img src="https://github.com/yassine-bennkhay/streakify/blob/main/assets/showcase.gif" height="600">
+<img src="https://raw.githubusercontent.com/yassine-bennkhay/streakify/main/assets/showcase.gif" height="600">
 
 ## Usage
 
