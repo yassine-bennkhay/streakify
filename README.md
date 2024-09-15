@@ -7,7 +7,7 @@
 - Support for tap interactions to handle user input.
 - Flexible styling options for borders, colors, and layout.
 ## Preview
-<img src="https://github.com/h65wang/flutter-animated-counter/raw/main/assets/showcase.gif" height="80">
+<img src="[https://github.com/h65wang/flutter-animated-counter/raw/main/assets/showcase.gif](https://github.com/yassine-bennkhay/streak_widget/blob/main/assets/showcase.gif)" height="80">
 
 ## Usage
 
