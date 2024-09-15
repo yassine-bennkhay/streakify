@@ -18,7 +18,7 @@ Add `streakify` to your `pubspec.yaml` file:
 dependencies:
   flutter:
     sdk: flutter
-  streak_widget: ^0.0.1
+  streakify: ^0.0.1
 ```
 
 Import the package in your Dart file:
