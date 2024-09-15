@@ -49,7 +49,7 @@ import 'package:streakify/streakify_widget.dart';
             ),
 ```
 
-This table outlines each attribute of the `Streakify` along with its type, default value, and a brief description of what it does.
+This table outlines each attribute of the `StreakifyWidget` along with its type, default value, and a brief description of what it does.
 | Attribute | Type | Default | Description |
 |-------------------------|---------------------------------------|---------------------------------|----------------------------------------------------------------------------------------------|
 | `numberOfDays` | `int` | Required | The total number of days to display in the grid. |
