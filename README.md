@@ -15,7 +15,7 @@ Add `streak_widget` to your `pubspec.yaml` file:
 dependencies:
   flutter:
     sdk: flutter
-  streak_widget: ^1.0.0
+  streak_widget: ^0.0.1
 ```
 Import the package in your Dart file:
 
