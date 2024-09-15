@@ -5,6 +5,9 @@
 - Display a grid of days with customizable colors.
 - Support for tap interactions to handle user input.
 - Flexible styling options for borders, colors, and layout.
+## Preview
+
+<img src="https://raw.githubusercontent.com/yassine-bennkhay/streakify/main/assets/showcase.png" alt="preview" height="500">
 
 ## Usage
 
