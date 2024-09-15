@@ -6,6 +6,8 @@
 - Display a grid of days with customizable colors.
 - Support for tap interactions to handle user input.
 - Flexible styling options for borders, colors, and layout.
+## Preview
+<img src="https://github.com/h65wang/flutter-animated-counter/raw/main/assets/showcase.gif" height="80">
 
 ## Usage
 
